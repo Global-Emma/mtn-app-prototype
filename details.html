@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/details.css">
+    <title>View Datails</title>
+</head>
+<body>
+    <header>
+            <a href="index.html" style="text-decoration: none">
+                <i class="fa-regular fa-circle-left"></i>
+            </a>
+            <p>View Details</p> 
+    </header>
+
+    <div class="name">
+        <div class="head-left">
+            <p>G</p>
+        </div>
+        <div class="head-center">
+            <p><i><b>Y'ello</b></i>, Glory</p>
+            <p>08034216705</p>
+        </div>
+        <div class="head-right">
+            <a href="">Switch Account</a>
+        </div>
+    </div>
+
+    <div class="options">
+        <button class="data js-data-body">Data</button>
+        <button class="airtime js-airtime">Airtime</button>
+        <button class="balance js-balance">Other Balance</button>
+    </div>
+<div class="data-body">
+    <div class="balance-div">
+        <div class="balance-left">
+            <p>Data Balance</p>
+            <h3 class="quantity data-amt"></h3>
+        </div>
+
+        <div class="balance-right">
+            <p>Bonus</p>
+            <h3 class="quantity js-bonus-quant">12.5</h3>
+        </div>
+    </div>
+
+    <fieldset>
+        <legend>Active Data Plans</legend>
+
+        <div class="plan">
+            <div class="expire">
+                <p class="data-plan"></p>
+                <p class="data-exp">Exp 02 Jun 2025</p>
+            </div>
+
+            <div class="data-bal">
+                <p class="data js-data"></p>
+                <p class="data-tot js-data-tot"></p>
+            </div>
+
+            <div class="data-summ">
+                <a href="data.html"><button>Buy Data</button></a>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Bonus Bundles</legend>
+        
+        <div class="data-bonus">
+            <div class="bonus-percent">
+                <p class="bonus-per">100% Double Data Bonus</p>
+                <p class="bonus-exp">Exp 02 Jun 2025</p>
+            </div>
+
+            <div class="remainder">
+                Remaining Data: 12.5GB
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<div class="airtime-body">
+    <div class="air">
+        <div class="air-head">
+            <p>Airtime Balance</p>
+            <p style="text-align: end">Bonus</p>
+        </div>
+        <div class="air-center">
+            <p class="air-bal">&#8358;147.4</p>
+            <p class="air-bonus">&#8358;0.00</p>
+        </div>
+        <div class="air-bottom">
+            <button onclick="location.href='airtime.html'">Recharge</button>
+        </div>
+    </div>
+</div>
+    <div class="icons">
+        <div>
+            <a href="" class="icon"><i class="fa-solid fa-earth-americas"></i></a>
+            <p>Roaming</p>
+        </div>
+        <div>
+            <a href="" class="icon"><i class="fa-solid fa-sack-dollar"></i></a>
+            <p>Win!</p>
+        </div>
+        <div>
+            <a href="" class="icon"><i class="fa-solid fa-right-to-bracket"></i></i></a>
+            <p>Share</p>
+        </div>
+        <div>
+            <a href=""><i class="fa-solid fa-arrow-left"></i></a>
+            <p>Borrow</p>
+        </div>
+        <div>
+            <a href="" class="icon"><i class="fa-solid fa-toolbox"></i></a>
+            <p>Offers</p>
+        </div>
+    </div>
+
+    <script src="scripts/details.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/93de0a83fb.js" crossorigin="anonymous"></script>
+</body>
+</html>

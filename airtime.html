@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/airtime.css">
+    <title>Airtime</title>
+</head>
+<body>
+        <header>
+            <a href="index.html" style="text-decoration: none">
+                <i class="fa-regular fa-circle-left"></i>
+            </a>
+            <p>Buy Airtime</p> 
+        </header>
+
+    <div class="self-others">
+        <div class="self">
+            Buy For Self
+        </div>
+
+        <div class="others">
+            Buy For Others
+        </div>
+    </div>
+
+    <div class="airtime-input">
+        <div class="amount">
+            <p class="amount-head">Enter Amount:</p>
+            <p class="airtime-min">Min: N50</p>
+            <p class="airtime-max">Max: N150,000</p>
+        </div>
+
+        <div class="input-field">
+            <input type="number" class="js-input" placeholder="N 0.00" id="amount-input">
+        </div>
+        
+     <p class="display" style="color: red; font-size: .8rem;"></p>
+
+    </div>
+    
+    <div class="airtime-number">
+        <p class="five">+N500</p>
+        <p class="ten">+N1000</p>
+        <p class="twenty">+N2000</p>
+        <p class="fifty">+N5000</p>
+        <p class="hundred">+N10000</p>
+        <p class="one-fifty">+N15000</p>
+    </div>
+
+    <div class="airtime-but js-airtime-but">
+        <button class="buy-but js-buy">
+            Proceed
+        </button>
+    </div>
+
+    <script src="scripts/airtime.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/93de0a83fb.js" crossorigin="anonymous"></script>
+</body>
+</html>

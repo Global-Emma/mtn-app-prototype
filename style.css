@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #000
+}
+
+header{
+    display: flex;
+    background: #27262b;
+    padding: 12px 16px;
+    gap: 15px;
+}
+
+.head-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+   
+}
+
+.head-left p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.head-center{
+    flex-grow: 2
+}
+
+.head-center p, b{
+    color: #fff;
+    font-size: 0.9rem
+}
+
+.head-center .prestige{
+    width: 100px;
+    height: 15px;
+    font-size: .6rem;
+    background: #1f1f1f;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.offers{
+    margin: auto;
+    display: flex;
+    background: linear-gradient(to right, #fff4b3, yellow, #dddd84) ;
+    padding: 16px 12px;
+    gap: 20px;
+    border-radius: 20px;
+    margin-top: 15px; 
+    width: 92%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.promo-offer{
+    flex-grow: 2
+}
+
+.promo-offer p{
+    color: #000;
+    font-size: .7rem;
+    letter-spacing: 2px;
+    font-weight:400
+}
+
+.promo-offer .enjoy{
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.claim{
+    background-color: #ffcb05;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: #000;
+    font-size: .8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.refresh{
+    font-size: .8rem;
+    text-align: center;
+    margin: 10px 0px;
+    color: #b3b3b3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+
+.acct-info{
+    width: 95%;
+    background: #414141;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.info-head{
+    display: flex;
+    color: #fff;
+    border-bottom: #5d5d5d solid 1px;
+    padding: 8px 18px;
+
+}
+
+.info-head p{
+    flex-grow: 2;
+    font-size: .8rem
+}
+
+.info-head .end{
+    text-align: end;
+}
+
+.info-center{
+    display: flex;
+    padding: 8px 12px;
+    gap: 20px;
+}
+
+.info-left{
+    flex-grow: 1;
+    color: #fff;
+    font-weight: 400;
+}
+
+.airtime{
+    width: 100px;
+    height: 28px;
+    background: #000;
+    border: none;
+    color: #ffca0c;
+    text-align: center;
+    border-radius: 20px;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+.info-right{
+    flex-grow: 1;
+    color: #fff;   
+    font-size: 10px;
+    font-weight: 400;
+    border-left: 1px solid #5d5d5d;
+    padding-left: 18px;
+}
+
+.info-right p, .info-left p{
+    margin-bottom: 5px;
+    font-size: .8rem;
+}
+
+.view-ref{
+    text-decoration: none !important
+}
+
+.info-bottom{
+    color: #000;
+    padding: 8px;
+    text-align: center;
+    background: #8d8d8d;
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+}
+
+.info-bottom:active{
+    color: #0000001e;
+
+}
+
+.icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow-x: scroll;
+    height: 100px;
+}
+
+.icons div{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background:  #222;
+    
+}
+
+.icons div a{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icons div p{
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.icons div a i{
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.market-box{
+    margin-top: 30px;
+}
+
+.market-head{
+    height: 40px;
+    display: flex;
+    color: #88888a;
+    background: #38373c;
+    padding: 0px 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.market-head button{
+    border: none;
+    background: transparent;
+    color: #88888a;
+    /* width: auto; */
+    height: 40px;
+    
+}
+
+.market-head button:focus{
+    color: yellow;
+}
+
+.market-line {
+    display: flex;
+    gap: 40px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #29282d;
+    justify-content: center;   
+    align-items: center;   
+    background-color: #1f1f1f;
+    overflow: scroll;
+}
+
+.market-line .image img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%
+}
+
+.market-line .image{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.market-line .image p{
+    color: #fff;
+    font-size: .6rem;
+    font-weight: 400;
+    text-align: center;
+    align-self: center;
+}
+
+.swipe{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.swipe img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+
+.swipey .swiper-pagination-bullet{
+    background-color: #ffca0c
+}
+
+.market-head .hot{
+    border-bottom: solid yellow 2px;
+}
+
+.cover2{
+    display: none;
+}
+
+.cover3{
+    display: none;
+}
+
+.cover4{
+    display: none;
+}
+
+.cover5{
+    display: none;
+}
+
+.cover6{
+    display: none;
+}
+
+.cover7{
+    display: none;
+}
+
+.cover8{
+    display: none;
+}
+
+fieldset{
+    border: none;
+    border-top: 2px solid white;
+    margin: 20px 0px;
+}
+
+legend{
+    color: white; 
+    text-align: center; 
+    padding: 0px 20px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.field-icon{
+    width: 40px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5%;
+    background: #27262b;
+    width: 100%;
+    height: 50px;
+    padding: 15px 0px;
+    border-radius: 20px;
+    z-index: 3
+}
+
+.center-div{
+    position: relative;
+    top: -38px;
+    border-radius: 50%;
+    box-shadow: 0px 20px 40px #ffd70099;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #ffcb05;
+}
+
+.center-div a i{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer div p{
+    color: #5f5f5f;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 600
+}
+
+footer div a{
+    text-decoration: none
+}
+
+footer div a i{
+    color: #5f5f5f;
+    font-size: 1.2rem;
+}
+
+@media(min-width:400px) {
+
+    .icons{
+        overflow: hidden
+    }
+
+    .market-head{
+        overflow: hidden
+    }
+
+    .market-line{
+        overflow: hidden
+    }
+}

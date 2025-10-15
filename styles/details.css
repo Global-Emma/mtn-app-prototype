@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #000;
+}
+
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 500;
+    padding: 0px 5px;
+}
+
+header p{
+    flex-grow: 1;
+    text-align: center;
+}
+
+header a{
+    text-align: start;
+    color: #fff
+}
+
+.name{
+    display: flex;
+    background: #000;
+    padding: 12px 16px;
+    gap: 15px;
+}
+
+.head-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #292828;
+   
+}
+
+.head-left p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.head-center{
+    flex-grow: 2
+}
+
+.head-center p, b{
+    color: #fff;
+    font-size: 0.9rem
+}
+
+.head-right a{
+    text-decoration: none;
+    color: #ffcb05;
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.options{
+    width: 100%;
+    height: 40px;
+    background: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.options .data, .options .airtime, .options .balance{
+    background: transparent;
+    flex-grow: 1;
+    border: none;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+
+}
+
+.options .data{
+    border-bottom: solid 2px yellow
+}
+
+
+.balance-div{
+    max-width: 99%;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(to right, yellow, #ffcb05, #a08802);
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.balance-left{
+    flex-grow: 1;
+    text-align: start
+}
+
+.balance-right{
+    flex-grow: 1;
+    text-align: end
+}
+
+.balance-right p, .balance-left p{
+    color: #000;
+    font-size: .7rem;
+}
+
+.quantity{
+    font-size: 1rem;
+    color: #000;
+    font-weight: bolder;
+    margin-top: 5px
+}
+
+.quantity span{
+    font-size: .8rem
+}
+
+fieldset{
+    width: 100%;
+    border: none;
+    border-top: solid 1px #504f4f;
+    margin-top: 5px
+}
+
+legend{
+    color: #fff;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: 0px 15px;
+}
+
+.plan{
+    max-width: 98%;
+    background: #1f1f1f;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px
+}
+
+.expire{
+    display: flex;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: solid 2px #3d3d3d;
+}
+
+.expire p{
+    color: #fff;
+    flex-grow: 1;
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.expire .data-exp{
+    text-align: end;
+    color:  #ffcb05;
+}
+
+.data-bal{
+    display: flex;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: solid 2px #3d3d3d;
+}
+
+.data-bal p{
+    color: #fff;
+    flex-grow: 1;
+    font-size: .8rem;
+    font-weight: 600
+    
+}
+
+.data-bal .data-tot{
+    text-align: end;
+
+}
+
+.data-tot span{
+    color: #ffcb05;
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.data-summ{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.data-summ a{
+    text-decoration: none;
+    width: 100%
+}
+
+.data-summ a button{
+    width: 95%;
+    height: 30px;
+    border: 1px solid #a88703;
+    border-radius: 20px;
+    background: transparent;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: #daae02;
+    cursor: pointer;
+}
+
+
+.data-bonus{
+    max-width: 98%;
+    background: #1f1f1f;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.bonus-percent{
+    display: flex;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: solid 1px #3d3d3d;
+
+}
+
+.bonus-percent p{
+    color: #fff;
+    flex-grow: 1;
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.bonus-percent .bonus-exp{
+    text-align: end
+}
+
+.remainder{
+    display: flex;
+    padding: 10px 0px;
+    border: none;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow-x: scroll;
+    height: 100px;
+}
+
+.icons div{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background:  #222;
+    
+}
+
+.icons div a{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icons div p{
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.icons div a i{
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.airtime-body{
+    display: none;
+}
+
+.airtime-body .air{
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    height: 80px;
+    padding: 15px 10px;
+    background: linear-gradient(to right, yellow, #ffcb05, #a08802);
+    border-radius: 20px;
+}
+
+.air-head{
+    display: flex;
+}
+
+.air-head p{
+    flex-grow: 1;
+    font-size: .7rem;
+
+}
+.air-center{
+    display: flex;
+    margin-top: 5px;
+}
+
+.air-center p{
+    flex-grow: 1;
+    font-weight: bolder;
+}
+
+.air-bonus{
+    text-align: right;
+}
+
+.air-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.air-bottom button{
+    width: 95%;
+    height: 30px;
+    background: black;
+    color: #ffcb05;
+    border: none;
+    border-radius: 20px;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
